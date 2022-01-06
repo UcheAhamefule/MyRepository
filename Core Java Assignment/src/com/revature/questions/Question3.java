@@ -2,16 +2,18 @@ package com.revature.questions;
 
 public class Question3 {
 	
-	public String reverseStrings(String aStr) {
+	public void reverseStrings(String aStr) {
 		
-		char[] ch = aStr.toCharArray();
-		String aString = "";
-		for(char i = 0; i > aStr.length() - 1; --i) {
-			aString = aString + ch[i];
+		String rev = "";
+		for(int i = aStr.length() - 1; i >= 0;  i--) {
+			
+			rev = rev + aStr.charAt(i);
 		}
 		
 		
-		return aString ;
+		System.out.println("The reverse value is: " + rev); 
 	}
+
+
 
 }

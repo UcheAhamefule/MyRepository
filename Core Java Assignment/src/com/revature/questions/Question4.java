@@ -12,7 +12,7 @@ public class Question4 {
 		for (i = 1; i < number; i++) {
 			factor = factor * i;
 		}
-		System.out.println("The factor of" + number + "is" + factor );
+		System.out.println("The factor of " + number + " is " + factor );
 	}
 
 }
